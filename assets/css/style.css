@@ -1,0 +1,14 @@
+﻿.report_form_block {margin-top: 30px; margin-bottom: 30px;}
+.report_form_block > .info {border: 1px dashed #000; border-radius: 10px; text-align: center; padding: 20px; margin-bottom: 20px;}
+.report_form_block .file_wrap {position: relative;}
+.report_form_block .file_wrap input[type="file"] {position: absolute; width: 1px; height: 1px; top: 0px; left: -9999px;}
+.report_form_block .file_wrap .btn_select_file {}
+.report_form_block .btn_send {}
+
+.reloader_page {padding: 40px 0px;}
+.reloader_page .info {text-align: center; margin-top: 30px; font-size: 22px; font-weight: bold;}
+.reloader_page .loader {background: transparent url('../images/ajax-loader.gif') no-repeat center center; height: 80px;}
+
+#load_file {}
+#load_file .info {font-size: 16px; font-weight: bold; text-align: center;}
+#load_file .loader {height: 80px; background: transparent url('../images/ajax-loader.gif') no-repeat center center;}
